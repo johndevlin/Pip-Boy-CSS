@@ -1,0 +1,43 @@
+
+@font-face {
+	font-family: 'Monofonto-Regular';
+		src: url('../webfonts/245361_0_0.eot');
+		src: url('../webfonts/245361_0_0.eot?#iefix') format('embedded-opentype'),
+			 url('../webfonts/245361_0_0.woff') format('woff'),
+			 url('../webfonts/245361_0_0.ttf') format('truetype');
+}
+
+body {
+	background-color: #222222;
+}
+
+h1, h3 {
+	color: #369761;
+	font-family: 'Monofonto-Regular';
+	margin: 0;
+	text-shadow: 0 0 10px #000000;
+		mask-image: url(../img/text-mask.png);
+   -moz-mask-image: url(../img/text-mask.png);
+	-ms-mask-image: url(../img/text-mask.png);
+	 -o-mask-image: url(../img/text-mask.png);
+-webkit-mask-image: url(../img/text-mask.png);
+}
+
+#pipboy{
+	background: url(../img/pipground.gif) #0f3d20;
+	border: 1px solid #111111;
+	margin: 50px auto 0;
+	text-align: center;
+	padding: 150px 0;
+	width: 800px;
+		border-radius: 20px;
+   -moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	 -o-border-radius: 20px;
+-webkit-border-radius: 20px;
+		box-shadow: 0 0 70px #000000 inset, 0 1px 0 #383838;
+   -moz-box-shadow: 0 0 70px #000000 inset, 0 1px 0 #383838;
+	-ms-box-shadow: 0 0 70px #000000 inset, 0 1px 0 #383838;
+	 -o-box-shadow: 0 0 70px #000000 inset, 0 1px 0 #383838;
+-webkit-box-shadow: 0 0 70px #000000 inset, 0 1px 0 #383838;
+}
